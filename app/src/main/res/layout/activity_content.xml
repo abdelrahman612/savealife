@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdelrahman.savealife.content"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/primaryRed">
+            <Button
+                android:id="@+id/Tap_home"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_home_black_24dp"
+                android:onClick="ShowHomeFrag"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/Tap_message"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:onClick="ShowMessageFrage"
+                android:background="@drawable/baseline_email_black_24" />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/tap_friend"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:onClick="Showfreindfrage"
+                android:background="@drawable/outline_person_outline_black_24" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/Tap_Notification"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:onClick="Shownotficationfrage"
+                android:background="@drawable/baseline_notifications_black_24" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/Tap_map"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:onClick="ShowMapFrage"
+               android:background="@drawable/baseline_location_on_black_24"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fragment_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    </FrameLayout>
+
+</LinearLayout>

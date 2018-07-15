@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1035851769286",
+    "firebase_url": "https://save-a-life-add56.firebaseio.com",
+    "project_id": "save-a-life-add56",
+    "storage_bucket": "save-a-life-add56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035851769286:android:880abba7669e7b63",
+        "android_client_info": {
+          "package_name": "com.example.abdelrahman.savealife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035851769286-t6e8ls333hq2ksa8n3kou2iuvg788gpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahman.savealife",
+            "certificate_hash": "4483ad825ccf6c234f9b97fe75ae7b2bdb341642"
+          }
+        },
+        {
+          "client_id": "1035851769286-8cagj9vohat20795hi23esvi5cuf7e0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDq1yxt3PGrw5nXTMgovFE99Bbdvu0RLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035851769286-8cagj9vohat20795hi23esvi5cuf7e0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

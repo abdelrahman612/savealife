@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primaryRed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abdelrahman.savealife.Register">
+<TextView
+    android:id="@+id/registertext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:textSize="40dp"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/IV_UserPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="25dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:singleLine="true"
+                android:id="@+id/ET_Register_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" First Name"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:singleLine="true"
+                android:id="@+id/ET_Register_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Last Name"
+                android:inputType="text"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:id="@+id/ET_Register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:layout_marginBottom="10dp"
+                />
+            <EditText
+                android:id="@+id/ET_Register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:layout_marginBottom="10dp"
+                />
+            <EditText
+                android:id="@+id/ET_Register_confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:layout_marginBottom="10dp"
+                />
+            <EditText
+                android:id="@+id/ET_Register_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="Year of Birth "
+                android:layout_marginBottom="10dp"
+                />
+            <EditText
+                android:id="@+id/ET_Register_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="Enter Age"
+                android:layout_marginBottom="10dp"
+                />
+            <EditText
+                android:id="@+id/ET_Register_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Phone Number"
+                android:layout_marginBottom="10dp"
+                />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginBottom="10dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Select Gender"
+                   android:textSize="19dp"
+                   android:paddingRight="30dp"
+                   android:paddingLeft="2dp"
+                   android:textColor="#868181"/>
+               <RadioGroup
+                   android:id="@+id/RG_gender"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginBottom="10dp">
+                   <RadioButton
+                       android:id="@+id/RB_Male"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Male"
+                       android:paddingRight="5dp"/>
+                   <RadioButton
+                       android:id="@+id/RB_Female"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Female"/>
+               </RadioGroup>
+           </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#868181"
+                android:layout_marginBottom="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select bloodGroub"
+                    android:textSize="19dp"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="2dp"
+                    android:textColor="#868181"/>
+                <Spinner
+                    android:id="@+id/SP_bloodGroub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Spinner>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#868181"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="last donation time "
+                    android:textSize="19dp"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="2dp"
+                    android:textColor="#868181"/>
+                <Spinner
+                    android:id="@+id/SP_LastDonner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Spinner>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Bu_Register_Done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:background="@drawable/background_button"
+                android:text="Done"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

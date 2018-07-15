@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_item3"
+        android:title="chating mode" />
+
+    <item
+        android:id="@+id/mi_profile"
+        android:icon="@drawable/persoicon"
+        android:title="My Profile"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/all_users_item"
+        android:title="All users" />
+
+    <item
+        android:id="@+id/mi_help"
+        android:title="Help" />
+    <item
+        android:id="@+id/mi_item4"
+        android:title="Log out" />
+
+</menu>

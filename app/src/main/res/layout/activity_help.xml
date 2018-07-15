@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryRed"
+    tools:context="com.example.abdelrahman.savealife.Help">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:text="SAVE a LIFE"
+            android:padding="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:text="this application help peoble to donner thier blood to other
+peoble who need this blood to save  a life.\n we know your blood groub  and help you to find nearst he need this groub by using gbs and thier location
+and thies help you if you need blood at any time by find other dooner. \n -> this application is a graduation project for faculity of computers and informatics in ismalia suze canel university
+now \n you should register and tell us your feedback in email
+  \n Abdelrahman.elkaliby@gmail.com
+"
+            android:padding="20dp"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>
